@@ -59,3 +59,4 @@ Model Results
 - Retrieve more entries
 - Weight entries by their distance to bike stations rather than just keeping the closest one
 - Add in more data such as categories
+- Do more data visualization, pairplot with seaborn, plot final regression line
