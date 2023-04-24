@@ -13,12 +13,12 @@ My goals are to go through the project and do a decent job at each step, given t
 ### Foursquare/Yelp
 - Retrieve data from citybikes csv
 - Loop through the bike station latitudes and longitudes to query both Foursquare and Yelp for surrounding places of interest
- - Foursquare
-  - Collect latitude and longitude into a single string
- - Yelp
-  - Separate latitude and longitude
- - If price or rating is missing, use -1
- - Keep track of station index for later
+    - Foursquare
+        - Collect latitude and longitude into a single string
+    - Yelp
+        - Separate latitude and longitude
+    - If price or rating is missing, use -1
+    - Keep track of station index for later
 - Export data into csv for easy access later
 
 ### Joining datasets
@@ -51,7 +51,7 @@ Model Results
 
 ## Challenges 
 - Time was the main constraint, as there were so many other pieces of data that could've been taken from the apis but I didn't have enough time to appropriately process them.
-- Joining the data was a challenge, given that the names and coordinates were often slightly different
+- Joining the data was a challenge, given that the names and coordinates were often slightly different. Latter portions of the project suffered from time sunk into joining
 
 ## Future Goals
 - Normalize/standardize the data
